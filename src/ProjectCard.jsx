@@ -1,6 +1,8 @@
 const tagClasses = '  text-xs bg-gray-200 rounded px-2 py-1'
 const buttonClasses = 'bg-black text-white hover:bg-primary/80 px-3 py-1 rounded transition flex items-center'
 
+
+
 const ProjectCard = ({ project }) => {
   return (
     <div className="bg-card rounded-lg shadow-xl p-6 transition-transform transform hover:scale-105">
