@@ -39,7 +39,7 @@ const ProjectData = [
     ],
   },
   {
-    name: 'Food Ordering Web App with React.js, Redux, and Tailwind CSS',
+    name: 'Food Ordering Web App ',
     image: 'https://tse4.mm.bing.net/th?id=OIP.aVafc-hT7kPEn1Nag3xh6AHaFj&pid=Api&P=0&h=180',
     date: 'June 2023 - Present',
     description: 'Web application for food ordering using React.js, Redux for state management, and Tailwind CSS for styling. The app allows users to browse food items, add them to cart, manage their cart, and complete the checkout process.',

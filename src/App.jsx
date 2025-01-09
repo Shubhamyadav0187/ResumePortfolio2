@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import ProfileCard from './ProfileCard.jsx'
+import Resume from './Resume.jsx'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Blog from "./Blog.jsx"
+import Home from './Home.jsx';
 
 
 
@@ -11,9 +12,11 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-    <Route path="/" element={<ProfileCard/>} />
-    <Route path="/ProfileCard" element={<ProfileCard/>} />
+    <Route path="/" element={<Home/>} /> 
+    {/* <Route path="/" element={<ProfileCard/>} /> */}
+    <Route path="/Resume" element={<Resume/>} />
     <Route path="/Blog" element={<Blog/>} />
+    
     </Routes>
       
      
